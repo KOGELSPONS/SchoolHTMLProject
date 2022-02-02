@@ -30,12 +30,6 @@ html, body{
   height: 100%;
 }
 
-.inside-body-wrapper{
-  margin: 0 auto;
-  display: flex;
-  width: 992px;
-}
-
 @media (min-width:992px){
   .content-body-wrapper{
     margin: 0 auto;
@@ -63,6 +57,7 @@ html, body{
   display: flex;
   justify-content: space-evenly;
   box-shadow: 0 4px 10px rgb(0 0 0 / 0.2);
+  overflow-y: hidden;
 }
 
 .nav-bar a {
