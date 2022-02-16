@@ -354,30 +354,3 @@ form:valid a {
   }
   
 }
-
-
-.h1text1 {
-  background: black;
-    color: teal;
-    padding-left: 20px;
-    border-radius: 25px;
-    width: 206px;
-    font-family: emoji;
-}
-
-.text1 {
-  color: teal
-}
-
-.about_us {
-  display: flex;
-    justify-content: center;
-}
-
-.textimagewrapper {
-
-}
-
-.textimage{
-  
-}
