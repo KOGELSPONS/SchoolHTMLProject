@@ -17,10 +17,11 @@ padding: 0 0px;
   display: flex;
   justify-content: center;
 }
-}
+
 
 .about_us {
   display: flex;
+  justify-content: center;
 }
 
 .textimagewrapper {
