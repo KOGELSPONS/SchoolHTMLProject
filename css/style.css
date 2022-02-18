@@ -11,12 +11,6 @@ html, body{
   -webkit-box-sizing: border-box;
 }
 
-.current-page {
-  border: none;
-  height: 1px;
-  color: #17ccd3;
-}
-
 .background {
   position: absolute;
   width: 100%;
@@ -357,4 +351,13 @@ form:valid a {
     font-size: 40px;
   }
   
+}
+
+
+
+
+.current {
+  border: none;
+  height: 1px;
+  color: #17ccd3;
 }
