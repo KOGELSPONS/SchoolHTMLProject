@@ -6,11 +6,17 @@
 	<title>Machine Learning</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css/style.css?v=1">
+	<link rel="stylesheet" href="css/video.css?v=1">
 	<link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
 	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
-	<link rel="icon" type="image/png" href="data/logo.png"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+	<link rel="icon" type="image/png" href="data/logo.png" />
+
+  <script>
+    function resizeIframe(obj) {obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';}
+  </script>
+
 </head>
 
 <body>
@@ -38,12 +44,12 @@
   <!-- Only put something beneath this -->
 
     <div class="content-body-wrapper">
-
-          <h1> Video</h1>
-          
-          <iframe width="80%"
-            src="https://www.youtube.com/watch?v=HcqpanDadyQ">
-          </iframe>
+          <div class="video1" style="margin: 1%;">
+            <h1> Video</h1>
+          </div>
+          <div class="video-wrapper">
+            <iframe width="80%" height="45%" src="https://www.youtube.com/embed/HcqpanDadyQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen scrolling="no" onload="resizeIframe(this);"></iframe>
+          </div>
     </div>
 
   <!-- Only put something above this -->
