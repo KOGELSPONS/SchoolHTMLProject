@@ -1,8 +1,7 @@
-.Machine {
+.machine {
   color: teal;
   background-color: black;
   border-radius: 50px;
-  padding-left: 40px;
+  padding: 5px 10px;
   font-family: emoji;
-  width: 200px
   }

@@ -220,12 +220,6 @@ form:valid a {
   margin-bottom:0;
 }
 
-.current {
-  border: none;
-  height: 1px;
-  color: #17ccd3;
-}
-
 .text3 {
   background-color: black;
   color: teal;
