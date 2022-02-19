@@ -26,25 +26,6 @@ html, body{
   z-index: 2;
 }
 
-@media (min-width: 992px) {
-  .content-body-wrapper{
-    margin: 0 auto;
-    display: flex;
-    width: 972px;
-    padding: 10px;
-  }
-  
-}
-
-@media (max-width: 992px) {
-  .content-body-wrapper{
-    width: 100%;
-    display: flex;
-    padding: 0 10px;
-  }
-
-}
-
 .nav-bar {
   width: 100%;
   height: 75px;
@@ -65,7 +46,7 @@ html, body{
   text-decoration: none;
   height: 100%;
   width: 100%;
-  font-size: 25px;
+  font-size: 180%;
 }
 
 @media screen and (max-width: 500px) {
@@ -236,4 +217,41 @@ form:valid a {
   width: 130px;
   border-radius: 50px;
   padding-left: 25px;
+}
+
+.current {
+  border-bottom: solid teal;
+  border-radius: 15px;
+  border-top: solid teal;
+}
+
+@media (min-width: 992px) {
+  .content-body-wrapper{
+    margin: 0 auto;
+    display: flex;
+    width: 972px;
+    padding: 10px;
+  }
+  
+}
+
+@media (max-width: 992px) {
+  .content-body-wrapper{
+    width: 100%;
+    display: flex;
+    padding: 0 10px;
+  }
+  .nav-bar i {
+    display: none;
+  }
+  .nav-bar a {
+    padding: 8px;
+  }
+}
+
+@media (max-width: 710px) {
+  .nav-bar a {
+    font-size: 150%;
+    padding: 6px;
+  }
 }
