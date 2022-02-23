@@ -41,13 +41,15 @@
 .nithush {
   margin: 0px 10px 0px 20px;;
   color: teal;
-  display: grid;
-  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .merijn {
   margin: 0px 20px 0px 10px;
   color: teal;
-  display: grid;
-  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
